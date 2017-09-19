@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+#sitetitle{
+    background-color: deeppink;
+}
+
+#sitetitle2{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#sitetitle2 h1{
+    font-size: 30px;
+    padding-bottom:15px;
+}
+
+#sitetitle2 h2{
+    font-size:22px;
+}
+
+#kekka{
+    text-align: center;
+    padding:120px;
+}
+
+#k{
+    font-size:50px;
+    color: red;
+    padding-bottom:30px;
+}
+
+#sub{
+    font-size: 30px;
+}

@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+#sitetitle{
+     background-color: deeppink;
+}
+
+#sitetitle2{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#sitetitle2 h1{
+    font-size: 30px;
+    padding-bottom:15px;
+}
+
+#sitetitle2 h2{
+    font-size:22px;
+}
+
+ .submit {
+    background-color: deeppink;
+    border: none;
+    color: #000000;
+    font-size: 1.8rem;
+}
+
+
+form{
+    text-align: center;
+}
+
+#form-list{
+    margin: 0 auto;
+    width: 500px;
+    border-top: solid 2px;
+    padding-bottom: 40px;
+    margin-top: 80px;
+}
+
+#form-item{
+    display: table;
+    border-bottom: solid 1px;
+}
+
+.form-label{
+    display: table-cell;
+    width:250px;
+    border-right: solid 1px;
+    padding:8px 50px 5px 15px;
+    font-size: 20px;
+}
+
+.form-detail{
+    display: table-cell;
+    vertical-align: middle;
+    padding: 5px;
+}
+
+.form-parts{
+    height: 20px;
+}
+
+.form-parts2{
+    height: 40px;
+}

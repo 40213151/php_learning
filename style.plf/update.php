@@ -1,0 +1,52 @@
+<?php
+session_start();
+include('functions.php');
+
+$id =$_SESSION["id"];
+$hn =$_POST["hn"];
+$gaku =$_POST["gaku"];
+$from= $_POST["from"];
+$ziman =$_POST["ziman"];
+$type =$_POST["type"];
+$zense =$_POST["zense"];
+$syutyo =$_POST["syutyo"];
+$yume =$_POST["yume"];
+$real =$_POST["real"];
+$gest =$_POST["gest"];
+$link =$_POST["link"];
+    
+////DB接続
+  $pdo =db_con();
+
+////UPDATE
+$sql = 'UPDATE plf_about_table SET `hn`=:hn,`gaku`=:gaku,`from`=:from,`ziman`=:ziman,`type`=:type,`zense`=:zense,`syutyo`=:syutyo,`yume`=:yume,`real`=:real,`gest`=:gest,`link`=:link WHERE `id`=:id';
+
+$stmt = $pdo->prepare($sql);
+
+$stmt->bindValue(':hn',$hn, PDO::PARAM_STR);
+$stmt->bindValue(':gaku',$gaku, PDO::PARAM_STR);
+$stmt->bindValue(':from',$from, PDO::PARAM_STR);
+$stmt->bindValue(':ziman',$ziman, PDO::PARAM_STR);
+$stmt->bindValue(':type',$type, PDO::PARAM_STR);
+$stmt->bindValue(':zense',$zense, PDO::PARAM_STR);
+$stmt->bindValue(':syutyo',$syutyo, PDO::PARAM_STR);
+$stmt->bindValue(':yume',$yume, PDO::PARAM_STR);
+$stmt->bindValue(':real',$real, PDO::PARAM_STR);
+$stmt->bindValue(':gest',$gest, PDO::PARAM_STR);
+$stmt->bindValue(':link',$link, PDO::PARAM_STR);
+$stmt->bindValue(':id',$id, PDO::PARAM_INT);
+
+$status = $stmt->execute();
+
+
+
+
+
+////登録処理がおわった後
+if($status==false){
+  queryError($stmt);
+}else{
+  header("location: view.php");
+exit;
+}
+?>

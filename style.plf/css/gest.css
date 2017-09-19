@@ -1,0 +1,104 @@
+
+
+#title{
+    background-color: deeppink;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#gestroom{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 40px;
+    }
+
+#mana{
+    text-align: center;
+}
+
+#mamo{
+    font-size: 20px;
+    text-align: left;
+    padding-left: 40px;
+}
+
+#manas{
+    text-align: left;
+    padding-left: 60px;
+    margin-top: 5px;
+    padding-bottom: 20px;
+    line-height: 30px;
+}
+
+#manas p{
+    font-size: 20px;
+    
+}
+
+#forms{
+    background-color:deeppink;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#form-list{
+    padding-top:20px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+}
+
+#nama{
+font-size:20px;   
+}
+
+#naiyo{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+#t{
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.submit{
+    width: 100px;
+    margin-top: 10px;
+     background-color: black;
+    border: solid  azure;
+    color: #ffffff;
+    font-size: 1.8rem;  
+}
+
+.head{
+    height: 4.5rem;
+}
+
+.tat{
+    color: #ffffff;
+    font-size: 2rem;
+}
+
+.body{
+    height: 8rem;
+    position: relative;
+    
+}
+
+.bobo{
+    font-size: 1.8rem;
+}
+
+.date{
+    position: absolute;
+    bottom: 0;
+}
+
+.panel{
+  width: 90%; 
+}

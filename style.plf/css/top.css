@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+
+#bar{
+    display: flex;
+    background-color:deeppink;
+}
+
+#bar p{
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+#title{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-image: url(../img/krkr.png);
+}
+
+.keba{
+    font-size: 45px;
+    padding-bottom: 20px;
+}
+
+.zibu{
+    font-size: 25px;
+}
+
+#can{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    border-bottom: double thick #ffffff;
+    border-width: ;
+    width:600px;
+    margin: 0 auto;
+    color: #ffffff;
+}
+
+#sistem{
+    text-align: center;
+    padding-bottom: 50px;
+    border-bottom: double thick #ffffff;
+    border-width: ;
+    width:600px;
+    margin: 0 auto;
+
+}
+
+#do p{
+    font-size: 25px;
+    padding-bottom: 10px;
+    padding-top: 40px;
+    color: #ffffff;
+}
+
+#about p{
+    font-size: 18px;
+    color: #ffffff;
+}
+
+
+
+#sistema{
+    background-color: #000000;
+    height: 100%;
+}
+
+#hazime{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.submit {
+    background-color: deeppink;
+    border: none;
+    color: #000000;
+    font-size: 1.8rem;
+}
+
+#start{
+    color: #ffffff;
+    font-size: 18px;
+    padding-bottom: 10px}
+
+#hazime2{
+    text-align: center;
+    margin-bottom: 60px;
+}
